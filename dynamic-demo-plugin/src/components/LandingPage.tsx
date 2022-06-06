@@ -17,6 +17,7 @@ import {
   RowProps,
   ResourceLink,
   TableColumn,
+  ListPageBody,
 } from '@openshift-console/dynamic-plugin-sdk';
 
 const columns: TableColumn<K8sResourceCommon>[] = [
@@ -96,12 +97,14 @@ export const MyLandingPage: React.FC<{ title: string }> = ({ title }) => {
             </HintBody>
           </Hint>
 
-        <MyTable
-          data={dbs}
-          unfilteredData={dbs}
-          loaded={loaded}
-          loadError={loadError}
-        />
+          <ListPageBody>
+            <MyTable
+              data={dbs}
+              unfilteredData={dbs}
+              loaded={loaded}
+              loadError={loadError}
+            />
+          </ListPageBody>
         </Stack>
       </PageSection>
     </Page>
