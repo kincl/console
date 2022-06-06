@@ -43,6 +43,15 @@
     }
   },
   {
+    "type": "console.navigation/href",
+    "properties": {
+      "id": "demo-list-databases",
+      "perspective": "demo",
+      "name": "List Databases",
+      "href": "/myLandingPage"
+    }
+  },
+  {
     "type": "console.navigation/section",
     "properties": {
       "id": "admin-demo-section",
