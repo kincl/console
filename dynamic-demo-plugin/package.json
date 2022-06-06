@@ -12,8 +12,8 @@
     "ts-node": "ts-node -O '{\"module\":\"commonjs\"}'"
   },
   "devDependencies": {
-    "@openshift-console/dynamic-plugin-sdk": "file:../frontend/packages/console-dynamic-plugin-sdk/dist/core",
-    "@openshift-console/dynamic-plugin-sdk-webpack": "file:../frontend/packages/console-dynamic-plugin-sdk/dist/webpack",
+    "@openshift-console/dynamic-plugin-sdk": "0.0.3",
+    "@openshift-console/dynamic-plugin-sdk-webpack": "0.0.6",
     "@patternfly/react-core": "4.162.2",
     "@patternfly/react-table": "4.31.7",
     "@types/react": "16.8.13",
@@ -54,9 +54,7 @@
       "K8sAPIConsumer": "./components/k8sConsumer/K8sAPIConsumer",
       "navPage": "./components/Nav",
       "listPage": "./components/ListPage",
-      "projectTabContent": "./components/ProjectTabExtensionContent",
-      "clusterInventoryOverview": "./components/ClusterOverview/Inventory",
-      "clusterOverview": "./utils/cluster-overview"
+      "projectTabContent": "./components/ProjectTabExtensionContent"
     },
     "dependencies": {
       "@console/pluginAPI": "*"
