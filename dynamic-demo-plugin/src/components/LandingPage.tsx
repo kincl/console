@@ -74,7 +74,7 @@ export const MyLandingPage: React.FC<{ title: string }> = ({ title }) => {
     groupVersionKind: {
       group: 'databases.example.com',
       version: 'v1alpha1',
-      kind: 'mariadb',
+      kind: 'MariaDB',
     },
     isList: true,
     namespaced: true,
