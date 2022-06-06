@@ -36,7 +36,7 @@
     "type": "console.perspective",
     "properties": {
       "id": "demo",
-      "name": "%plugin__console-demo-plugin~Demo%",
+      "name": "Databases",
       "icon": { "$codeRef": "perspective.icon" },
       "landingPageURL": { "$codeRef": "perspective.getLandingPageURL" },
       "importRedirectURL": { "$codeRef": "perspective.getImportRedirectURL" }
@@ -273,6 +273,13 @@
     "properties": {
       "path": "/test-k8sapi",
       "component": { "$codeRef": "K8sAPIConsumer.default" }
+    }
+  },
+  {
+    "type": "console.page/route",
+    "properties": {
+      "path": "/myLandingPage",
+      "component": { "$codeRef": "landingPage" }
     }
   }
 ]

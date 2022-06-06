@@ -54,7 +54,8 @@
       "K8sAPIConsumer": "./components/k8sConsumer/K8sAPIConsumer",
       "navPage": "./components/Nav",
       "listPage": "./components/ListPage",
-      "projectTabContent": "./components/ProjectTabExtensionContent"
+      "projectTabContent": "./components/ProjectTabExtensionContent",
+      "landingPage": "./components/LandingPage"
     },
     "dependencies": {
       "@console/pluginAPI": "*"
