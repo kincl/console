@@ -72,6 +72,7 @@ export const MyLandingPage: React.FC<{ title: string }> = ({ title }) => {
 
   const [dbs, loaded, loadError] = useK8sWatchResource<K8sResourceCommon[]>({
     groupVersionKind: {
+      group: 'databases.example.com',
       version: 'v1alpha1',
       kind: 'mariadb',
     },
